@@ -1,5 +1,6 @@
 require_relative 'spec_helper'
 require_relative '../lib/second_challenge.rb'
+require 'pry'
 
 describe "#second_challenge" do 
   it "uses the .values method to collect all of the grocery items from the groceries hash" do 
