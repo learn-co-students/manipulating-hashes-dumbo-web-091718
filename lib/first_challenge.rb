@@ -13,9 +13,11 @@ def first_challenge
     }
   }
 
-  #your code here
-
-
+  #Delete by Indexing item 
+contacts["Freddy Mercury"][:favorite_icecream_flavors].delete_at(0) 
+ #OR Delete by item Name
+# contacts["Freddy Mercury"][:favorite_icecream_flavors].delete("strawberry") 
+ contacts
   #remember to return your newly altered contacts hash!
   contacts
 end
